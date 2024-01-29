@@ -1,0 +1,37 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+
+@media screen and (min-width: 800px ) {
+    body{
+        height: 95vh;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #informacoes{
+        width: 450px;
+    }
+
+    p, h1{
+        text-align: justify;
+    }
+
+    #foto{
+        width: 20%;
+    }
+
+    #foto > img{
+        top: 0%;
+        left: 0%;
+        width: 250px;
+        height: 250px;
+    }
+    
+    #ImageBorder{
+        top: -4%;
+        left: 4%;
+        width: 250px;
+        height: 250px;
+    }
+}
