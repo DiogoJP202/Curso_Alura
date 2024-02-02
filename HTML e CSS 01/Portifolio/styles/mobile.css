@@ -32,6 +32,8 @@ nav > a{
 main{
     display: flex;
     flex-direction: column;
+    align-items: center;
+
 }
 
 main h1, main p{
@@ -39,6 +41,37 @@ main h1, main p{
 
     color: #fff;
     text-align: center;
+}
+
+#foto{
+    position: relative;
+    margin-top: 20px;
+    height: 250px;
+    width: 250px;
+}
+
+#foto > img{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 250px;
+    height: 250px;
+
+    border-radius: 10px;
+}
+
+#ImageBorder{
+    position: absolute;
+    top: -4%;
+    left: 0%;
+    z-index: -1;
+    width: 250px;
+    height: 250px;
+
+    margin-left: 10px;
+
+    border: 1px solid rgb(0, 255, 0);
+    border-radius: 11px;
 }
 
 h1{
@@ -102,9 +135,8 @@ i{
 }
 
 #textoSobreMim{
-    width: 80%;
+    width: 100%;
     max-width: 600px;
-    margin-right: 40px;
 }
 
 #textoSobreMim h1{
@@ -127,7 +159,8 @@ i{
 #textoSobreMim a{
     text-decoration: none;
     color: rgb(0, 255, 0);
-    font-size: 0.9em;
+    font-size: 0.7em;
+    
 }
 
 #textoSobreMim h2{
@@ -145,39 +178,6 @@ i{
     color: #fff;
     text-indent: 20px;
     font-size: 0.7em;
-}
-
-#foto{
-    position: relative;
-    margin-top: 10px;
-    height: 250px;
-    width: 250px;
-}
-
-#foto > img{
-    position: absolute;
-    top: 0%;
-    left: 0%;
-    width: 250px;
-    height: 250px;
-
-    margin-left: 10px;
-
-    border-radius: 10px;
-}
-
-#ImageBorder{
-    position: absolute;
-    top: -4%;
-    left: 4%;
-    z-index: -1;
-    width: 250px;
-    height: 250px;
-
-    margin-left: 10px;
-
-    border: 1px solid rgb(0, 255, 0);
-    border-radius: 11px;
 }
 
 #goodbyeText{
